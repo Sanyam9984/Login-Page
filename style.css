@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,700&display=swap");
+* {
+  background: #fec395;
+}
+.head {
+  background: #696eff;
+  color: black;
+  font-size: 212%;
+  position: relative;
+  height: 20px;
+  width: 216px;
+  top: 38%;
+  font-family: "EB Garamond", serif;
+  left: 9%;
+}
+
+.main {
+  width: 466px;
+  height: 561px;
+  background: #696eff;
+  position: relative;
+  left: 35%;
+  display: grid;
+  border-radius: 62px;
+  justify-content: center;
+}
+form {
+  background: #696eff;
+  position: relative;
+  top: 6%;
+  left: 4%;
+}
+.box1 {
+  width: 149px;
+  height: 43px;
+  background: #696eff;
+  color: rgb(2, 2, 2);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 5%;
+  align-items: center;
+  font-size: 37px;
+  font-weight: 500;
+  border-radius: 27px;
+  border: 2px solid black;
+  font-family: "Kenia", cursive;
+  left: 18%;
+}
+.Font {
+  background: #696eff;
+  font-size: 160%;
+  font-family: "Nerko One", cursive;
+}
+.Red {
+  background: #696eff;
+  color: black;
+  width: 238px;
+  height: 36px;
+  border: 2px solid black;
+}
+.box1:hover {
+  font-size: 28px;
+  color: red;
+  cursor: pointer;
+}
+.Font:hover {
+  cursor: all-scroll;
+}
+.Red:hover {
+  background: white;
+}
+.head:hover {
+  cursor: no-drop;
+}
